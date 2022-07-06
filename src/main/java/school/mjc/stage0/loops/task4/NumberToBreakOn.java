@@ -6,6 +6,7 @@ public class NumberToBreakOn {
             System.out.print("iterating till the end");
         else {
             for (int i = 0; i < numberToGoUntil; i++) {
+                if (i == 0) continue;
                 if (i == toBreakWith)
                     break;
                 System.out.println(i);
